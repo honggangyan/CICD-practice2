@@ -1,7 +1,7 @@
 ---
 name: ci-pipeline # name of the workflow
 
-on: [push, pull-request] # triggered when these actions
+on: [push, pull_request] # triggered when these actions
 
 jobs: 
   build:
