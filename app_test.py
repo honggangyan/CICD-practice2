@@ -12,7 +12,7 @@ class TestSumFunction(unittest.TestCase):
     
     def test_float_number(self):
         result = sum(1.3, 2.3)
-        self.assertEqual(abs(result - 3.6) < 1e-8)
+        self.assertTrue(abs(result - 3.6) < 1e-8)
     
     def test_invalid_input(self):
         with self.assertRaises(TypeError):
