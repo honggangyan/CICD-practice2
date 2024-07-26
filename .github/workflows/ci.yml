@@ -1,5 +1,6 @@
 ---
-name: ci-pipeline # name of the workflow
+name: ci-pipeline # name of the workflow. This configuration will trigger the pipeline on push and pull request events, 
+# set up a Windows environment with Python, install dependencies, and run tests using pytest.
 
 on: [push, pull_request] # triggered when these actions
 

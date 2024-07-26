@@ -3,7 +3,6 @@ from app import sum
 
 class TestSumFunction(unittest.TestCase):
 
-
     def test_positive_numbers(self):
         self.assertEqual(sum(1, 1), 2)
 
